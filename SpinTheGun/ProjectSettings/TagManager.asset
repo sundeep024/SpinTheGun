@@ -7,6 +7,8 @@ TagManager:
   - Canvas
   - Weapon
   - Coin
+  - Bullet
+  - Border
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - game
   - 
   - 
   - 
@@ -46,4 +48,7 @@ TagManager:
     locked: 0
   - name: GamePlay
     uniqueID: 1005502587
+    locked: 0
+  - name: GameOver
+    uniqueID: 720819689
     locked: 0

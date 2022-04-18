@@ -9,6 +9,10 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Home Screen...");
         SceneManager.LoadScene("GamePlay");
-
+    }
+    public void ExitGame()
+    {
+        Debug.Log("Game Exit...");
+        Application.Quit();
     }
 }

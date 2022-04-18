@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4228492369111545432}
   - component: {fileID: 4228492369111545433}
   - component: {fileID: 7441103734370974768}
-  - component: {fileID: 3732989918824536444}
+  - component: {fileID: 863512705}
   m_Layer: 0
   m_Name: dollar-coin 01
   m_TagString: Coin
@@ -116,21 +116,28 @@ Rigidbody2D:
   m_Mass: 0.5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.5
+  m_GravityScale: 0.2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &3732989918824536444
-MonoBehaviour:
+  m_Constraints: 4
+--- !u!95 &863512705
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4228492369111545414}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2de11d8977e834749bd4dc28962a9323, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6456fb9844bcf5f4081e569b1fe3f678, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
