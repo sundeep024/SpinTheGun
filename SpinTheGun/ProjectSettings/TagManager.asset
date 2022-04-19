@@ -9,6 +9,8 @@ TagManager:
   - Coin
   - Bullet
   - Border
+  - MultiBullet
+  - RedZone
   layers:
   - Default
   - TransparentFX
